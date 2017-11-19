@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a1341fe2536d4291ab9044d5fbb384b2" Name="Diagram1">
+        <EntityTypeShape EntityType="Testdata1Model.Datum" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Testdata1Model.user" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Testdata1Model.accountdetail" Width="1.5" PointX="5.375" PointY="3.75" />
+        <EntityTypeShape EntityType="Testdata1Model.profile" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Testdata1Model.user_scores" Width="1.5" PointX="2.625" PointY="4" />
+        <EntityTypeShape EntityType="Testdata1Model.CardInfo" Width="1.5" PointX="0.75" PointY="6.875" />
+        <EntityTypeShape EntityType="Testdata1Model.Card" Width="1.5" PointX="3" PointY="6.875" />
+        <EntityTypeShape EntityType="Testdata1Model.Game" Width="1.5" PointX="5.75" PointY="6.75" />
+        <AssociationConnector Association="Testdata1Model.FK__Cards__CardInfoI__7755B73D" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
